@@ -1,0 +1,15 @@
+/home/batman/Music/notesTeachYourSelfC-inOneHour/bin/Debug/net8.0/notesTeachYourSelfC-inOneHour
+/home/batman/Music/notesTeachYourSelfC-inOneHour/bin/Debug/net8.0/notesTeachYourSelfC-inOneHour.deps.json
+/home/batman/Music/notesTeachYourSelfC-inOneHour/bin/Debug/net8.0/notesTeachYourSelfC-inOneHour.runtimeconfig.json
+/home/batman/Music/notesTeachYourSelfC-inOneHour/bin/Debug/net8.0/notesTeachYourSelfC-inOneHour.dll
+/home/batman/Music/notesTeachYourSelfC-inOneHour/bin/Debug/net8.0/notesTeachYourSelfC-inOneHour.pdb
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.GeneratedMSBuildEditorConfig.editorconfig
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.AssemblyInfoInputs.cache
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.AssemblyInfo.cs
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.csproj.CoreCompileInputs.cache
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.sourcelink.json
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.dll
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/refint/notesTeachYourSelfC-inOneHour.dll
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.pdb
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/notesTeachYourSelfC-inOneHour.genruntimeconfig.cache
+/home/batman/Music/notesTeachYourSelfC-inOneHour/obj/Debug/net8.0/ref/notesTeachYourSelfC-inOneHour.dll
