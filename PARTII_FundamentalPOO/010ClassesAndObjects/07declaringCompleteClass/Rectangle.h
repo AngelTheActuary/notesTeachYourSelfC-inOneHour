@@ -35,7 +35,7 @@ class Rectangle
         void SetUpperLeft(Point Location) {itsUpperLeft=Location;}
         void SetUpperRight(Point Location) {itsUpperRight=Location;}
         void SetLowerRight(Point Location) {itsLowerRight=Location;}
-        void SetLowerLeft(Point Location) {itsUpperLeft=Location;}
+        void SetLowerLeft(Point Location) {itsLowerLeft=Location;}
 
         void SetTop(int top) {itsTop=top;}
         void SetLeft(int left) {itsLeft=left;}

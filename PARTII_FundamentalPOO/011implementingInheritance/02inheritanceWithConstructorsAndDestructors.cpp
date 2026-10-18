@@ -47,7 +47,7 @@ Mammal::Mammal():
 itsAge(3),
 itsWeight(5)
 {
-    cout<<"Mammal destrcutor..."<<endl;
+    cout<<"Mammal comstriuctor..."<<endl;
 }
 
 Mammal::~Mammal()

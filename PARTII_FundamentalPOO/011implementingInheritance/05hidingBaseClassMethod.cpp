@@ -28,11 +28,9 @@ int main()
 {
     Mammal bigAnimal;
     Dog Solobino;
-    bigAnimal.Move();
+    bigAnimal.Move(); //one 
     bigAnimal.Move(2);
-    Solobino.Move();
-    //This make a warning
-    //Solobino.Move(10);
+    Solobino.Move(); //5
     return 0;
 }
 

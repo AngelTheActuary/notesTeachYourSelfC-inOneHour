@@ -1,9 +1,8 @@
 /*
-CONSTRUCTORS IN MULTIPLY INHERITANCE OBJECTS.
-If Pegasus derives from both Horse and Bird, and each of the base calsses
-has constructors that take parameters, the Pegasus class
-initializes these constructors in turn.
-Listing 12.4 illustrates how this is done.
+CONSTRUCTOR IN MULTIPLY INHERITANCE OBJECTS.
+If Pegasus derives from both Horse and Bird, and each of the base classes
+has construtor that take parameters, the pegasus class initializes these constructors in turn.
+
 */
 
 #include<iostream>
@@ -17,7 +16,7 @@ class Horse
     public:
         Horse(COLOR color, HANDS height);
         virtual ~Horse() {cout<<"Horse destructor...\n";}
-        virtual void Whinny()const {cout<<"Whinny!...";}
+        virtual void Whinny()const { cout<<"Whinny!...\n"; }
         virtual HANDS GetHeight() const {return itsHeight;}
         virtual COLOR GetColor() const {return itsColor;}
     private:
@@ -28,7 +27,7 @@ class Horse
 Horse::Horse(COLOR color, HANDS height):
 itsColor(color),itsHeight(height)
 {
-    cout<<"Horse constructor...\n";
+    cout<<"Horse contructor...\n";
 }
 
 class Bird
@@ -59,7 +58,7 @@ class Pegasus:public Horse, public Bird
 {
     public:
         void Chirp()const {Whinny();}
-        Pegasus (COLOR, HANDS, bool, long);
+        Pegasus(COLOR, HANDS, bool, long);
         ~Pegasus() {cout<<"Pegasus destructor...\n";}
         virtual long GetNumberBelievers() const
         {
@@ -69,18 +68,15 @@ class Pegasus:public Horse, public Bird
         long itsNumberBelievers;
 };
 
-Pegasus::Pegasus(
-    COLOR aColor, HANDS height, bool migrates, long NumBelieve
-):
+Pegasus::Pegasus(COLOR aColor, HANDS height, bool migrates, long NumBelievers):
 Horse(aColor, height),
 Bird(aColor, migrates),
-itsNumberBelievers(NumBelieve)
+itsNumberBelievers(NumBelievers)
 {
-    cout<<"Pegasus constructor...\n";
+    cout<<"Pegasus constructor....\n";
 }
 
-int main()
-{
+int main() {
     Pegasus *pPeg=new Pegasus(Red, 5, true, 10);
     pPeg->Fly();
     pPeg->Whinny();
@@ -92,11 +88,12 @@ int main()
         cout<<"It does not migrate.";
     }
     cout<<"\nA total of "<<pPeg->GetNumberBelievers();
-    cout<<" people believe it exists."<<endl;
+    cout<<" people belive it exits."<<endl;
+
     delete pPeg;
+
     return 0;
 }
-
 
 
 
